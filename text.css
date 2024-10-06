@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Jost';
+    font-weight: 500;
+    overflow-x: hidden;
+}
+
+header {
+    width:  100%;
+    min-width: 1440px;
+    height: auto;
+    min-height: 185.5px;
+    top: -599px;
+    left: -720px;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 11px -1px #242A310F;
+    
+}
+
+.campaign {
+    width: 100%;
+    height: auto;
+    min-height: 32px;
+    padding: 6px 150px;
+    gap: 10px;
+    background-color: #181A1E;
+}
+.middle {
+    display: flex;
+    width: 1140;
+    height: 20px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.campaign1 {
+width: 242px;
+height: 20px;
+border: 0px 0px 1px 0px;
+gap: 6px; 
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 20px;
+ letter-spacing: -0.03em;
+ color: #FFFFFF;
+ text-align: left;
+ justify-content: center;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    min-height: 57.5px;
+    border: 0px 0px 1px 0px;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 10px 150px;
+    gap: 30px;
+    display: flex;
+}
+
+.left {
+    width: auto;
+    min-width:169.57.px ;
+    height: auto;
+    min-height: 37.5px;
+}
+.logo {
+    width: 169.57px;
+    height: 37.5px;
+    padding: 3.39px 0.22px 3.63px 0px;
+}
+.Logo {
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    width: 169.35px;
+    height: 30.49px;
+    top: 3.39px;
+}
+.icon {
+    position: relative;
+    width: 46.74px;
+    height: 30.49px;
+    top: 3.39px;
+}
+.icon img {
+    position: absolute;
+}
+.mindfulness {
+    width: 114.79px;
+    height: 16.1px;
+    top: 10.42px;
+    left: 54.56px;
+    color: #000000;
+}
+
+.middle2 {
+    width: 455.21px; 
+    height: 37px;
+}
+
+.search {
+     display: flex;
+     width: 263px;
+     height:37px;
+     justify-content: space-between;
+     border-bottom: 1px solid #E2E2E2;
+     padding-bottom: 13px;
+}
+
+.product {
+      width: 109px; 
+      height: 16px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: -0.03em;
+      text-align: left;
+      color: #8C9094; }
+
+.icon-magnifying-glass {
+      width: 24px;
+      height: 24px;
+      padding: 2.03px 0px 0px 0px;
+}
+
+.vector-magnifyingglass {
+    width: 19.94px;
+    height: 19.94px;
+    top: 2.03px;
+    left: 2.03px;
+}
+.right {
+    display:flex; 
+    justify-content:flex-end; 
+    align-items: center; 
+    width:455.21px; 
+    height:37.5px; 
+    /*gap:15px;*/
+}
+
+.seperator1 {
+    display: none; 
+    width: 30px; 
+    height: 0px; 
+    transform: rotate(90deg); 
+    border: 1px solid #E2E2E2;
+}
+.right1 {
+  display: flex; 
+  width:100px; 
+  height: 14px; 
+  gap: 15px;
+}
+.currency { display: flex; align-items:center; justify-content:space-between; width:54px; height:14px; gap: 4px; border-radius: 100px 0px 0px 0px;}
+
+.group8 {position:relative; width:12px; height: 12px;}
+
+.group { display: flex; position: relative;  width:7.2px; height: 6px; top: 4px; left: 2.4px;}
+
+.TRY {align-items: center; text-align: center; width: 20px; height: 14px; font-family: Jost; font-size: 12px; font-weight: 500; line-height: 14px; letter-spacing: -0.04em; text-align: left;
+    color: #4E5359;}
+.icon-angle-down {position: relative;  width: 14px; height: 14px; padding: 4.66px 2.84px 4.66px 2.84px; }  
+
+.lang {display: flex; justify-content: space-between;  width:31px; height:14px; gap: 4px; border-radius: 100px 0px 0px 0px; opacity: 0px;}
+
+.TR {width: 13px; height: 14px; font-size: 12px; font-weight: 500; line-height: 14px; letter-spacing: -0.04em; color: #4E5359; text-align: left;}
+
+.seperator {transform: rotate(90deg); width:21px; height:0; opacity:10% ; border: 1px solid #181A1E;}
+
+.Frame-4 {display:flex; justify-content: space-between; width:99px; height:14px; gap: 15px;}
+
+.Frame-4 div { height: 14px; font-size: 12px; line-height: 14px; letter-spacing: -0.04em; text-align: left; color: #4E5359;}
+
+.icons { display: flex; justify-content:space-between; align-items: center; width:119px; height:36px; gap:20px; border-radius: 64px 0px 0px 0px;}
+
+.user {align-items: center; display: flex; justify-content: space-between; width:75px; height:36px; gap: 10px;}
+
+.icon-wrapper {display: flex; justify-content:center; width:36px; height:36px; padding: 6px 0px 0px 0px; gap: 10px; border-radius: 64px; border: 1px solid #242A31;}
+
+.icon-user { width: 24px; height: 24px; padding: 2px 2.38px;}
+
+.textt {flex-direction: row; width:29px; height:32px;}
+
+.textt div { text-align: center; text-align: left;}
+
+.hello {width: 29px; height:14px; font-size:12px; line-height:14px;  letter-spacing: -0.04em;  color: #8C9094;}
+.testt {width: 23px; height:18px; font-size:16px; line-height:18px;  letter-spacing: -0.03em; color: #242A31;}
+
+.icon-cart {width: 24px; height: 24px; padding: 2px 0.75px 2px 0.75px;}
+
+.menu1 {
+    gap: 10px;
+}
+
+.seperator2 {
+    width: 5px; 
+    height: 5px; 
+    border-radius: 50%; 
+    background: #1976D2;
+    opacity: 10%;
+}
+.menu2 {
+    gap: 30px; 
+    background: #F7F7F8;
+}
+.menu1, .menu2 {
+    padding: 10px 150px;
+    width: 100%; 
+    height: auto;
+    min-height: 48px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    letter-spacing: -0.03em; 
+    text-align: left; 
+    color:#242A31;
+}
+
+.menu1 div:not(.seperator2), 
+.menu2 div {
+    height: 28px;
+}
+.Hero {
+    width: 100%;
+    min-width: 1440px;
+    height: auto;
+    min-height: 530px;
+    top: -413.5px;
+    left: -720px;
+    gap: 0px;
+    border-bottom:1px;
+    background: #FFFFFF;
+}
+.image {
+    display: block;
+    position: relative;  
+    width: 100%;
+    min-width: 1440;
+    height: auto;
+    max-height: 530px;
+    object-fit: cover; 
+}
+#sabrina {
+    width: 100%; 
+    height: auto; 
+    max-height:530px;
+    top: -225px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.border-hero {
+    position: absolute;
+    width: 1380px; 
+    height: 470px; 
+    top: 30px; 
+    left: 69.55px; /*figmada 30du ama ortalamıyordu*/
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width:1200px;
+    height: 425px;
+    top: 52px;
+    left: 120px;
+    gap: 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    opacity: initial;
+}
+@font-face {
+    font-family: 'Copperplate Gothic';
+    src: url('path/to/CopperplateGothic.ttf') format('truetype');
+}
+.content .head { /*width:661px;*/ height: 60px; font-family:'Copperplate Gothic', serif;  font-size: 64px; font-weight: 400; line-height: 60px; letter-spacing:-0.04em; text-align: center; color: #FFFFFF;
+}
+.discover { width: 263px; height: 54px; padding: 15px 90px; gap: 10px; background: #FFFFFF33; backdrop-filter: blur(20px);
+}
+.discover div { width: 83px;
+    height: 24px;
+    font-family: Jost; 
+    font-size: 24px; 
+    font-weight: 400; 
+    line-height: 24px; 
+    letter-spacing: -0.03em; 
+    text-align: left;
+    color: #FFFFFF;}
+
+.overlay{
+    width: 1440px; height: 530px; opacity: 0px;
+    position: absolute;
+    background: #1976D2; 
+    mix-blend-mode: hue;
+}
+.hero-pagination {
+    position: absolute; 
+    width: 230px; 
+    height: 3px; 
+    top: 477.5px; 
+    left: 150px; 
+    gap: 10px; 
+    transform: rotate(0deg);
+}
+.pagination {
+    justify-content: space-between; 
+    list-style:none; 
+    display: flex;
+}
+.pagination .active {
+    width: 50px;
+    height: 3px;
+    gap: 0px;
+    opacity: 0;
+    transform: rotate(0deg); 
+    background: #FFFFFF; 
+}
+
+.pagination .normal {
+width: 50px;
+height: 3px;
+gap: 0px;
+opacity: 10%;
+transform: rotate(0deg); 
+background: #181A1E;}
